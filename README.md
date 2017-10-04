@@ -62,4 +62,5 @@ Avant de vous lancer dans la programmation du composant MyRE, testez l'expressio
 #### Résultats :
 1. ^Der|^Die|^Das
 2. ^D(er|ie|as)
+
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
