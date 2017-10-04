@@ -33,7 +33,7 @@ Pour faire ce test, il vous est demandé de :
  1. faire un ```git clone```de ce projet
  2. faire un ```git branch```qui porte comme nom, votre prénom (attention de bien fixer votre nom github )
  3. de répondre ou faire les exercices demandés ci-dessous
- 4. si possible, sauvegarder votre projet sur github (si pas possible, en faire une archive, zip ou tgz,)
+ 4. si possible, sauvegarder votre projet sur github (le plus simple est de créer un nouveau projet sur votre compte github, si pas possible, en faire une archive, zip ou tgz)
  5. m'envoyer la référence de votre projet (ou votre archive) dans lequel je trouverai les réponses à ce qui est demandé.
 
 ### Présentation du projet
