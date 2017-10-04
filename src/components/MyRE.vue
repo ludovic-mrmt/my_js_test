@@ -44,6 +44,7 @@ export default {
     },
     checkItem () {
       let a = ''
+      //Salut
       a = '^' + this.listItems.join('|^')
       console.log(a)
       if (a === '') {
