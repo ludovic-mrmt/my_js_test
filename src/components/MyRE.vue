@@ -44,9 +44,9 @@ export default {
     },
     checkItem () {
       let a = ''
+      // A COMPLETER
       // ici vous fabriquez un 'a' en composant les éléments de la liste listItems
-      // à l'aide d'une boucle A COMPLETER
-      a = '^D'
+      // à l'aide d'une boucle
       if (a === '') {
         // throw Error('Le string de RE est vide')
         return

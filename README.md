@@ -31,7 +31,7 @@ Pour l'utilisation de ```yarn``` référez-vous à la page suivante : https://ya
 Pour faire ce test, il vous est demandé de :
 
  1. faire un ```git clone```de ce projet
- 2. faire un ```fork```qui porte comme nom, votre prénom (attention de bien fixer votre nom github )
+ 2. faire un ```git branch```qui porte comme nom, votre prénom (attention de bien fixer votre nom github )
  3. de répondre ou faire les exercices demandés ci-dessous
  4. si possible, sauvegarder votre projet sur github (si pas possible, en faire une archive, zip ou tgz,)
  5. m'envoyer la référence de votre projet (ou votre archive) dans lequel je trouverai les réponses à ce qui est demandé.
@@ -55,7 +55,7 @@ Avant de vous lancer dans la programmation du composant MyRE, testez l'expressio
 
 #### A faire :
 
- 1. Trouvez 2 expressions régulières différentes qui permettent de repérer les phrases qui commencent par 'Der', 'Die' ou 'Das' (mettez votre résultat dans le README.md de votre "fork")``
+ 1. Trouvez 2 expressions régulières différentes qui permettent de repérer les phrases qui commencent par 'Der', 'Die' ou 'Das' (mettez votre résultat dans le README.md de votre "branch")``
  2. Modifiez le code de ```MyRE.vue```pour que la page fonctionne et le test fonctionne quelques soient les mots utilisés dans la liste de ```listItems```
  3. Si vous avez le temps, vous pouvez copier ```MyRE.vue```en le nommant ```MyRE2.vue``` pour modifier le fonctionnement de ce composant de sorte à ce que tous les éléments de la liste doivent se trouver dans la phrase testée (n'oubliez pas de générer une nouvelle *route* pour ce composant sous ```src/router/index.js```, c-à-d un nouveau chemin URL http://localhost:8080/#/re2 par exemple)
 
