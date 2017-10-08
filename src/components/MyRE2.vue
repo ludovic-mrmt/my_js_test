@@ -44,7 +44,7 @@ export default {
     },
     checkItem () {
       let a = ''
-      a = '^' + this.listItems.join('|^')
+      a = '(?=.*' + this.listItems.join(')(?=.*') + ')'
       console.log(a)
       if (a === '') {
         // throw Error('Le string de RE est vide')
