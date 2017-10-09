@@ -44,9 +44,8 @@ export default {
     },
     checkItem () {
       let a = ''
-      // Salut
-      a = '^' + this.listItems.join(' |^')
-      console.log(a)
+      a = '^' + this.listItems.join('\\b|^') + '\\b'
+      console.log(a) // Vérifier dans la console l'expression régulière a
       if (a === '') {
         // throw Error('Le string de RE est vide')
         return

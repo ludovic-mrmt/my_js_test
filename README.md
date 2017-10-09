@@ -60,7 +60,7 @@ Avant de vous lancer dans la programmation du composant MyRE, testez l'expressio
  3. Si vous avez le temps, vous pouvez copier ```MyRE.vue```en le nommant ```MyRE2.vue``` pour modifier le fonctionnement de ce composant de sorte à ce que tous les éléments de la liste doivent se trouver dans la phrase testée (n'oubliez pas de générer une nouvelle *route* pour ce composant sous ```src/router/index.js```, c-à-d un nouveau chemin URL http://localhost:8080/#/re2 par exemple)
 
 #### Résultats :
-1. ^Der |^Die |^Das 
-2. ^D(er |ie |as )
+1. ^Der\b|^Die\b|^Das\b
+2. (?=.\*^Der\b)|(?=.\*^Die\b)|(?=.\*^Das\b)
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
